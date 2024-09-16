@@ -1,0 +1,275 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Hi there", "Good morning", "Good afternoon",
+        "Greetings", "What's up?", "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?", "Hi there! How can I help?",
+        "Hey! How can I be of service today?", "Hello! What can I do for you?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "take care",
+        "Catch you later", "Farewell", "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.", "See you later!", "Take care! Goodbye.",
+        "Farewell! Hope to see you soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Appreciate it", "Thanks a lot",
+        "Thank you very much", "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome!", "Happy to help!", "No problem!", "Anytime!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "JEC",
+      "patterns": [
+        "Can you provide details about JEC?",
+        "Janakpur Engineering College",
+        "JEC",
+        "What is Janakpur Engineering College (JEC)?",
+        "Tell me about Janakpur Engineering College.",
+        "Could you describe JEC?",
+        "Details about Janakpur Engineering College",
+        "Information on JEC",
+        "Can you give me some information about JEC?",
+        "I'd like some information on Janakpur Engineering College.",
+        "Fill me in on JEC.",
+        "Provide some insight into Janakpur Engineering college.",
+        "Brief me on JEC."
+      ],
+      "responses": [
+        "Janakpur Engineering College JEC, affiliated with Tribhuvan University, is located in Kupondole, Lalitpur, Nepal. Established in 2058 B.S., JEC offers Bachelor's programs in Civil Engineering, Electronics & Information Engineering, and Computer Engineering. JEC is dedicated to providing a comprehensive higher education experience, emphasizing innovation and quality in a supportive learning environment with advanced facilities.",
+        "Located in Kupondole, Lalitpur, Nepal, Janakpur Engineering College JEC is affiliated with Tribhuvan University.JEC has been offering Bachelor's programs in Civil Engineering, Electronics & Information Engineering, and Computer Engineering since 2058 B.S.Committed to excellence, JEC provides a nurturing and flexible learning environment equipped with state-of-the-art facilities to foster student success.",
+        "Janakpur Engineering College JEC, affiliated with Tribhuvan University, has been a cornerstone of engineering education in Nepal since its establishment in 2058 B.S. Situated in Kupondole, Lalitpur, JEC offers Bachelor's programs in Civil Engineering, Electronics & Information Engineering, and Computer Engineering. JEC emphasizes access to higher education, quality teaching, and industry relevance."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "missions",
+      "patterns": [
+        "What is the mission of Janakpur Engineering College?",
+        "Could you tell me about the mission?",
+        "What does Janakpur Engineering College aim to achieve?",
+        "What are the goals of Janakpur Engineering College?",
+        "Describe the mission of JEC.",
+        "Mission statement of Janakpur Engineering College."
+      ],
+      "responses": [
+        "Our mission at Janakpur Engineering College is to provide high-quality undergraduate engineering education to students from all backgrounds.",
+        "We aim to prepare our graduates for successful careers in civil engineering, computer engineering, and electronics and information engineering.",
+        "We are committed to fostering a supportive and flexible learning environment equipped with state-of-the-art facilities and technology.",
+        "Janakpur Engineering College strives to be a leader in engineering education, promoting access to higher education and driving innovation and research."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "What is the vision of Janakpur Engineering College?",
+        "Could you describe the vision of JEC?",
+        "What does Janakpur Engineering College aspire to achieve?",
+        "What are the future goals of Janakpur Engineering College?",
+        "Describe the vision statement of JEC.",
+        "Vision of Janakpur Engineering College."
+      ],
+      "responses": [
+        "Our vision at Janakpur Engineering College is to become a leading institution for engineering education and research.",
+        "We aspire to equip our students with the knowledge, skills, and experiences necessary for successful careers.",
+        "Janakpur Engineering College aims to be a top choice for aspiring engineers by offering innovative programs in civil engineering, computer engineering, and electronics and information engineering.",
+        "We are dedicated to fostering a diverse and inclusive community where students from all backgrounds can learn, grow, and achieve their full potential.",
+        "Through partnerships with industry and society, we endeavor to drive innovation and make a positive impact on the global community."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?", "Tell me about courses", "List of courses",
+        "What programs are available?", "Available courses at JEC"
+      ],
+      "responses": [
+        "We offer three different streams of engineering namely Civil Engineering (BCE), Electronics and Information Engineering (BEI), and Computer Engineering (BCT). How can I assist you further?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "civil_engineering",
+      "patterns": [
+        "Tell me about Civil Engineering",
+        "What can you tell me about BCE?",
+        "Give me details on Civil Engineering at JEC",
+        "Information about Civil Engineering",
+        "Civil Engineering program details",
+        "Tell me about BCE"
+      ],
+      "responses": [
+        "Civil Engineering at Janakpur Engineering College prepares students to design, build, and maintain infrastructure.",
+        "Students study structural engineering, environmental engineering, construction management, and more.",
+        "The program includes hands-on experience with state-of-the-art facilities and resources."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "civil_engineering_structure",
+      "patterns": [
+        "What is the course structure for Civil Engineering?",
+        "Can you tell me about the curriculum of Civil Engineering?",
+        "Describe the course structure of BCE at JEC"
+      ],
+      "responses": [
+        "The Civil Engineering program at JEC is structured over four years.\n\nIn the first year, students cover subjects like Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nThe second year focuses on Applied Mechanics, Physics, Electronics, Electrical Engineering, and more.\nMoving into the third year, topics include Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nFinally, in the fourth year, students study Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and have elective options.",
+        "The curriculum for Civil Engineering at JEC spans a total of four years.\n\nYear one introduces foundational courses such as Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nYear two builds on these foundations with Applied Mechanics, Physics, Electronics, and Electrical Engineering among other subjects.\nIn the third year, students delve into advanced topics including Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nThe fourth and final year focuses on specialized studies like Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and allows students to choose elective courses."
+      ],
+      "context": ["civil_engineering"]
+    },
+    {
+      "tag": "computer_engineering",
+      "patterns": [
+        "Tell me about Computer Engineering",
+        "What does Computer Engineering involve?",
+        "Information about Computer Engineering at JEC",
+        "Details about Computer Engineering",
+        "Computer Engineering program",
+        "Tell me about BCT"
+      ],
+      "responses": [
+        "Exciting News for Aspiring Engineers!!! Janakpur Engineering College offers a Bachelor of Engineering (BE) program in Computer Engineering, providing students with a comprehensive education in designing, testing, and maintaining computer hardware and software systems.",
+        "Students in the Computer Engineering program at JEC gain hands-on experience in software development, information system design, digital systems, computer networking, and automatic system designing."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "computer_engineering_structure",
+      "patterns": [
+        "What is the course structure for Computer Engineering?",
+        "Can you tell me about the curriculum of Computer Engineering?",
+        "Describe the course structure of BCT at JEC"
+      ],
+      "responses": [
+        "The Computer Engineering program at JEC is structured over four years.\n\nIn the first year, students cover subjects like Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nThe second year focuses on Applied Mechanics, Physics, Electronics, Electrical Engineering, and more.\nMoving into the third year, topics include Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nFinally, in the fourth year, students study Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and have elective options.",
+        "The curriculum for Computer Engineering at JEC spans a total of four years.\n\nYear one introduces foundational courses such as Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nYear two builds on these foundations with Applied Mechanics, Physics, Electronics, and Electrical Engineering among other subjects.\nIn the third year, students delve into advanced topics including Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nThe fourth and final year focuses on specialized studies like Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and allows students to choose elective courses."
+      ],
+      "context": ["computer_engineering"]
+    },
+    {
+      "tag": "electronics_and_information_engineering",
+      "patterns": [
+        "Tell me about Electronics and Information Engineering",
+        "What does Electronics and Information Engineering involve?",
+        "Information about Electronics and Information Engineering at JEC",
+        "Details about Electronics and Information Engineering",
+        "Electronics and Information Engineering program",
+        "Tell me about BEI"
+      ],
+      "responses": [
+        "Exciting News for Aspiring Engineers!!! Janakpur Engineering College offers a Bachelor of Engineering (BE) program in Electronics and Information Engineering, providing students with a comprehensive education in designing, testing, and maintaining computer hardware and software systems.",
+        "Students in the Electronics and Information Engineering program at JEC gain hands-on experience in software development, information system design, digital systems, computer networking, and automatic system designing."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "electronics_and_information_engineering_structure",
+      "patterns": [
+        "What is the course structure for Electronics and Information Engineering?",
+        "Can you tell me about the curriculum of Electronics and Information Engineering?",
+        "Describe the course structure of BEI at JEC"
+      ],
+      "responses": [
+        "The Electronics and Information Engineering program at JEC is structured over four years.\n\nIn the first year, students cover subjects like Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nThe second year focuses on Applied Mechanics, Physics, Electronics, Electrical Engineering, and more.\nMoving into the third year, topics include Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nFinally, in the fourth year, students study Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and have elective options.",
+        "The curriculum for Electronics and Information Engineering at JEC spans a total of four years.\n\nYear one introduces foundational courses such as Engineering Mathematics, Drawing, Chemistry, Thermodynamics, Programming, and Workshop Technology.\nYear two builds on these foundations with Applied Mechanics, Physics, Electronics, and Electrical Engineering among other subjects.\nIn the third year, students delve into advanced topics including Theory of Structure, Water Supply Engineering, Hydrology, and Concrete Technology.\nThe fourth and final year focuses on specialized studies like Hydro power Engineering, Project Engineering, Estimation, RCC Structure Design, and allows students to choose elective courses."
+      ],
+      "context": ["electronics_and_information_engineering"]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "What are the eligibility criteria for admission?",
+        "Admission requirements",
+        "Eligibility for courses at JEC",
+        "Admission criteria",
+        "Who can apply for courses at JEC?",
+        "Requirements for admission"
+      ],
+      "responses": [
+        "To be eligible for admission to Janakpur Engineering College, applicants must have completed higher secondary education (10+2) or equivalent with a focus on science and mathematics.",
+        "Applicants should have a minimum GPA as specified by the college and must pass the entrance examination conducted by the college or relevant authorities.",
+        "Detailed eligibility criteria can be found on the college's official website or by contacting the admissions office.",
+        "Prospective students should have a strong foundation in science and mathematics from their higher secondary education (10+2) or equivalent."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "What is the admission process?",
+        "How can I apply for admission?",
+        "Steps to apply for admission",
+        "Admission procedure",
+        "How to apply at JEC?",
+        "Application process for JEC"
+      ],
+      "responses": [
+        "To apply for admission at JEC:\n1. Click on 'Apply Online' and complete the form.\n2. Make sure to fill in your full name, gender, address, email, phone number, IOE roll number and IOE rank. These are required. Other information is optional.\n3. After submitting the form, J.E.C will get in touch with you.",
+        "Here’s how you can apply for admission:\n1. Go to 'Apply Online' and fill out the application form.\n2. Provide your full name, gender, address, email, phone number, IOE roll number and IOE rank. These are required fields. You can skip other fields if needed.\n3. Once you submit the form, J.E.C will contact you.",
+        "To apply for admission:\n1. Click 'Apply Online' and fill in the application form.\n2. Your full name, gender, address, email, phone number, IOE roll number and IOE rank are mandatory. Other fields are optional.\n3. After submitting the form, you will be contacted by J.E.C.",
+        "To apply for admission at JEC:\n1. Click 'Apply Online' and fill out the form.\n2. You must enter your full name, gender, address, email, phone number, IOE roll number and IOE rank. These details are required. Other fields are optional.\n3. After submitting your form, J.E.C will reach out to you.",
+        "Applying for admission is easy:\n1. Go to the 'Apply Online' section and complete the application form.\n2. Provide your full name, gender, address, email, phone number, IOE roll number and IOE rank. These are necessary. Other information is optional.\n3. Once your form is submitted, J.E.C will contact you.",
+        "Follow these steps to apply for admission:\n1. Click 'Apply Online' and fill out the form.\n2. Make sure you enter your full name, gender, address, email, phone number, IOE roll number and IOE rank. These are required. You can leave other fields blank if you prefer.\n3. After you submit the form, J.E.C will get in touch with you.",
+        "Here’s how to apply for admission:\n1. Click 'Apply Online' to start the application.\n2. Fill in your full name, gender, address, email, phone number, IOE roll number and IOE rank. These details are required. Additional information is optional.\n3. After you submit the form, J.E.C will contact you with further details.",
+        "To apply for admission:\n1. Click on 'Apply Online' and complete the form.\n2. Enter your full name, gender, address, email, phone number, IOE roll number and IOE rank. These are necessary. Other fields are optional.\n3. Once you have submitted the form, J.E.C will reach out to you."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there any scholarships available?",
+        "Scholarship options",
+        "Financial aid for students",
+        "Scholarships at JEC",
+        "Does JEC offer scholarships?",
+        "How can I apply for scholarships?"
+      ],
+      "responses": [
+        "Janakpur Engineering College offers various scholarships to deserving and needy students based on academic performance and financial need.",
+        "Scholarships are available for meritorious students and those in financial need. Detailed information can be obtained from the college's official website or the admissions office.",
+        "To apply for scholarships, students need to fill out the scholarship application form and provide relevant documents to support their application.",
+        "For more details on scholarship opportunities and the application process, please visit the college's website or contact the admissions office."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact Janakpur Engineering College?",
+        "Contact details of JEC",
+        "How to get in touch with JEC?",
+        "JEC contact information",
+        "Phone number of JEC",
+        "Email address of JEC"
+      ],
+      "responses": [
+        "You can contact Janakpur Engineering College via phone at +977-1-5540555 or email at info@jec.edu.np.",
+        "For any inquiries, please call us at +977-1-5540555 or send an email to info@jec.edu.np.",
+        "Feel free to reach out to us at +977-1-5540555 or info@jec.edu.np for any questions or information.",
+        "You can visit our official website at www.jec.edu.np for more contact details and information."
+      ],
+      "context": [""]
+    }
+  ]
+}
